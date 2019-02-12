@@ -1,0 +1,156 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>XBOX 4 | Home</title>
+<link rel="stylesheet" href="css/foundation.css" />
+<link id="withJScript" href="css/nojs.css" rel="stylesheet" type="text/css" />	
+<script src="js/vendor/modernizr.js"></script>
+<script src="js/foundation.orbit.js"></script>
+</head>
+
+<body>
+<div class="row">
+	<div class="large-3 columns">
+		<h1><a href="index.html"><img src="img/logo_small.jpg" alt="XBOX 4 Logo" /></a></h1>
+	</div> <!-- end class large-3 columns -->
+		<div class="large-9 columns navBar">
+			<ul class="right button-group">
+				<li><a href="index.html" class="button homeMenu">Home</a></li>
+				<li><a href="apps.html" class="button homeMenu">Apps</a></li>
+				<li><a href="games.html" class="button homeMenu">Games</a></li>
+				<li><a href="reserve.php" class="button homeMenu">Reserve</a></li>
+			</ul>
+		</div> <!-- end class large-9 columns navBar -->
+</div> <!-- end row -->
+  
+<!-- End Header and Nav -->
+ 
+<!-- First Band (Slider) -->
+ 
+<div class="row">
+	<div class="large-12 columns">
+		<ul class="example-orbit" data-orbit>
+			<li><img src="img/dashboard_small.jpg" alt="Xbox Four Dashboard" /></li>
+            <li><img src="img/batman-small.jpg" alt="Batman Arkham Knight" /></li>
+			<li><img src="img/kinect-rivals-small.jpg" alt="Kinect Sports Rivals" /></li>
+		</ul>
+	</div> <!-- end class large-12 columns -->
+</div> <!-- end row -->
+  
+<!-- Three-up Content Blocks -->
+ 
+<div class="row">
+
+	<div class="large-4 medium-4 columns">
+		<img src="img/console-small.png" alt="Xbox Four Game Console" />
+		<h4 class="homeArticles">It's Here</h4>
+		<p class="infoHome">Welcome to a new generation of games and entertainment. Where games push the boundaries of realism. And television obeys your every command. Where listening to music while playing a game is a snap. And you can jump  from TV to movies to music to a game in an instant. Where your experience is custom tailored to you. And the entertainment you love is all in one place. Welcome to Xbox Four. <p><a href="#" id="more"> Xbox Live...</a></p></p>
+        
+        <p class="extra"><img id="liveXbox" src="img/xboxLive.png" alt="Xbox Live"/>Experience unrivaled multiplayer for the hottest exclusive games, HD movies and TV shows, live events, music and sports. Along with premiere entertainment apps, Internet Explorer, and Skype on your TV. With Xbox Live Gold, you can stay connected with friends, family, and more than 48 million people around the world. <a href="#" id="less"> Hide</a></p>
+                   
+	</div> <!-- end class large-4 medium-4 columns -->
+    
+    <div class="large-4 medium-4 columns">
+		<img src="img/apps.jpg" alt="Applications available on XBOX Four" />
+		<h4 class="homeArticles">Apps Galore</h4>
+		<p class="infoHome">Your favorite apps will find their home on Xbox Four. Find the apps you want now. Pin your favorites to your home screen. Best of all, jump between apps instantly, or snap them side by side to do two things at once. Apps will bring you and other gamers from across the globe closer together than ever before and new apps will be available to you with each software update for the XBOX Four. So, which apps will you use? <p><a href="#" id="showNFL"> NFL Partner...</a></p></p>
+    
+		<p class="extraNFL"><img id="ravens small-12" src="img/nfl-fantasy.jpg" alt="NFL Fantasy Football"/>NFL Fantasy Football comes to life on your TV with Xbox One, allowing you to manage your team and track your League in your living room like never before. Built-in NFL.com Fantasy allows you to set your lineup, watch highlights from your players or prospects, and even receive real-time scoring updates as you track your games on Sunday. Snap your Fantasy next to live TV or gaming and never miss a scoring update again.<a href="#" id="hideNFL"> Hide</a></p>
+	</div> <!-- end class large-4 medium-4 columns -->
+    
+	<div class="large-4 medium-4 columns">
+		<img src="img/games.jpg" alt="Games for XBOX Four" />
+		<h4 class="homeArticles">Advanced Games</h4>
+		<p class="infoHome">Xbox Four was built by gamers, for gamers. The perfect balance of power and performance, Xbox Four takes gaming to a whole new level. Stunning realism. Advanced AI that adapts to the way you play. And a new generation of multiplayer that is both smarter and faster. Xbox Four is simply the best gaming console we’ve ever made. Simply put, you will not regret investing in the future of console gaming. <p><a href="#" id="showBatman"> Enter the Knight...</a></p></p>
+                 
+		<p class="extraBatman"><img id="darkKnight" src="img/batman-knight.gif" alt="Batman Arkham Knight"/>In the explosive finale to the Arkham series, Batman faces the ultimate threat against the city he is sworn to protect. The Scarecrow returns to unite an impressive roster of super villains, including Penguin, Two-Face and Harley Quinn, to destroy The Dark Knight forever. Batman: Arkham Knight introduces Rocksteady's uniquely designed version of the Batmobile, which is drivable for the first time in the franchise. The addition of this legendary vehicle, combined with the acclaimed gameplay of the Batman Arkham series, offers gamers the ultimate and complete Batman experience as they tear through the streets and soar across the skyline of the entirety of Gotham City. Be The Batman. <a href="#" id="hideBatman"> Hide</a></p> 
+	</div> <!-- end class large-4 medium-4 columns -->
+  
+</div> <!-- end row -->
+
+  <!-- Footer -->
+  
+<footer class="row">
+	<div class="large-12 columns">
+		<div class="row">
+			<div class="large-12 columns">
+				<p class="copyrightText">This interactive media project was created by a student for educational purposes at the Art Institute of Atlanta and is in no way intended for commercial gain or as a source of public information.</p>
+			</div> <!-- end class large-12 columns -->
+		</div> <!-- end class row -->
+	</div> <!-- end class large-12 columns --> 
+</footer> <!-- end footer row -->
+    
+    
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+
+ function changeStyle() {
+ 			document.getElementById('withJScript').href = 'css/override.css';
+ }
+ 
+ </script>
+ 
+ <script>
+
+//changes made to orbit slider
+
+$(document).foundation({	  
+	  
+	orbit: {
+
+		bullets: false,
+		animation: 'fade',
+		timer_speed: 2000,
+		slide_number: false
+	}
+});
+
+		//show and hide XBOX Live Information
+		
+		document.getElementById('more').onclick = function(e){ 
+		e.preventDefault();
+		document.querySelector('.extra').style.display = "block";
+		document.getElementById('more').style.display = "none";
+		}
+		
+		document.getElementById('less').onclick = function(e){ 
+		e.preventDefault();
+		document.querySelector('.extra').style.display = "none";
+		document.getElementById('more').style.display = "inline";
+		}
+		
+		// show and hide NFL Information
+		
+		document.getElementById('showNFL').onclick = function(a){ 
+		a.preventDefault();
+		document.querySelector('.extraNFL').style.display = "block";
+		document.getElementById('showNFL').style.display = "none";
+		}
+		
+		document.getElementById('hideNFL').onclick = function(a){ 
+		a.preventDefault();
+		document.querySelector('.extraNFL').style.display = "none";
+		document.getElementById('showNFL').style.display = "inline";
+		}
+		
+			// show and hide Batman Arkham Knight Information
+		
+		document.getElementById('showBatman').onclick = function(a){ 
+		a.preventDefault();
+		document.querySelector('.extraBatman').style.display = "block";
+		document.getElementById('showBatman').style.display = "none";
+		}
+		
+		document.getElementById('hideBatman').onclick = function(a){ 
+		a.preventDefault();
+		document.querySelector('.extraBatman').style.display = "none";
+		document.getElementById('showBatman').style.display = "inline";
+		}
+		
+	  
+</script>
+</body>
+</html>

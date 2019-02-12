@@ -1,0 +1,112 @@
+@charset "UTF-8";
+/* CSS Document */
+/*font for top main navigation*/
+@import url(http://fonts.googleapis.com/css?family=Audiowide);
+/*body copy paragraph font*/
+@import url(http://fonts.googleapis.com/css?family=Lato:300);
+
+body {
+	background:url(../img/dark.png);
+}
+/*top main navigation background-color*/
+
+/*top main navigation normal state*/
+a.button.homeMenu, button.radius.button {
+	background:none;
+	margin-top:1em;
+	margin-right:2em;
+	border:none;
+	font-family: 'Audiowide', cursive;
+	letter-spacing:0.3em;
+}
+/*top main navigation hover state*/
+a.button.homeMenu:hover {
+	background:#1c5b06;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+/*hover state for submit button on contact form*/
+button.radius.button:hover {
+	background:#1c5b06;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+/*styling of h4 headers for articles on home page*/
+h4.homeArticles, #xboxReserve {
+	margin-top:0.9em;
+	color:#107c10;
+	font-family: 'Audiowide', cursive;
+	letter-spacing:0.1em;
+}
+
+
+p.infoHome, p.infoApp, #reserve, #caption {
+	color:white;
+}
+
+p.infoHome, p.infoApp, #caption{
+	font-family: 'Lato', sans-serif;
+}
+
+#caption {
+	padding-top:1.5em;
+}
+
+p.infoApp {
+	width:45em;
+}
+
+/*style for footer text*/
+.copyrightText {
+	color:#fff;
+	text-align:center;
+	font-size:0.1em;
+	/*letter-spacing:0.1em;*/
+}
+/*white-space between orbit slider and text below orbit slider*/
+.orbit-container{
+	padding-bottom:3em;
+}
+
+.extra, .extraNFL, .extraBatman {
+		/*display:none;*/
+		color:white;
+	 }	
+
+#more, #showNFL, #less, #hideNFL, #showBatman, #hideBatman {
+	font-family: 'Audiowide', cursive;
+	letter-spacing:0.3em;
+	color:#1c5b06;
+	
+}
+
+#more:hover, #showNFL:hover, #less:hover, #hideNFL:hover, #showBatman:hover, #hideBatman:hover {
+	background:#fff;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border-radius: 10px 10px 10px 10px;
+	padding:5px;
+}
+
+#ravens, #liveXbox, #darkKnight {padding-bottom:1.2em;}
+
+.left {
+	float: left !important;
+padding-right: 4em;
+}
+
+div.large-12.medium-12.columns.gap{
+	padding-top:1.5em;
+	padding-bottom:2em;
+}
+
+.appFooter {
+	padding-top:3em;
+}
+
+hr {
+	opacity:0.2;
+}
+
+
+
